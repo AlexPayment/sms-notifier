@@ -1,0 +1,5 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Numbers to notify" field="numbersToNotify" description="Phone numbers to notify in case of build failure">
+    <f:textarea />
+  </f:entry>
+</j:jelly>
